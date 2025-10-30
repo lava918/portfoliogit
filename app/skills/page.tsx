@@ -24,7 +24,7 @@ export default function SkillsPage() {
     },
     {
       title: "Development Tools & Platforms",
-      items: ["Vercel", "Replit", "VS Code", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Atlas", "MySQL Workbench", "Android Studio"],
+      items: ["Vercel", "Replit", "VS Code", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
     },
     {
       title: "Version Control",
