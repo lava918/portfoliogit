@@ -4,7 +4,7 @@ export default function SkillsPage() {
   const groups = [
     {
       title: "Programming Languages",
-      items: ["Java", "Python", "JavaScript", "C & C++", "PHP"],
+      items: ["Java", "Python", "JavaScript", "Typescript", "C & C++", "PHP"],
     },
     {
       title: "Web Development",
