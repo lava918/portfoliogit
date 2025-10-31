@@ -16,11 +16,7 @@ export default function SkillsPage() {
     },
     {
       title: "Core Competencies",
-      items: ["Debugging", "Problem Solving", "Analytical Thinking", "Collaboration", "Adaptability", "Project Leadership"],
-    },
-    {
-      title: "Version Control",
-      items: ["Git", "GitHub"],
+      items: ["Git", "GitHub", "Debugging", "Problem Solving", "Analytical Thinking", "Collaboration", "Adaptability", "Project Leadership"],
     },
     {
       title: "Machine Learning & Data Science",
