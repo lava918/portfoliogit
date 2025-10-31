@@ -19,16 +19,16 @@ export default function SkillsPage() {
       items: ["Debugging", "Problem Solving", "Analytical Thinking", "Collaboration", "Adaptability", "Project Leadership"],
     },
     {
+      title: "Version Control",
+      items: ["Git", "GitHub"],
+    },
+    {
       title: "Machine Learning & Data Science",
-      items: ["Scikit-learn", "Pandas", "NumPy", "Random Forest", "PyTorch", "OpenCV", "Naïve Bayes"],
+      items: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly", "Random Forest", "PyTorch", "OpenCV", "Naïve Bayes"],
     },
     {
       title: "Development Tools & Platforms",
-      items: ["Vercel", "Replit", "VS Code", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
-    },
-    {
-      title: "Version Control",
-      items: ["Git", "GitHub"],
+      items: ["Vercel", "Render", "Replit", "VS Code", "Cursor", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
     }
   ]
   return <SkillsGrid groups={groups} />
