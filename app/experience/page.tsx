@@ -20,7 +20,7 @@ export default function ExperiencePage() {
       bullets: ["Details not disclosed."],
     },
     {
-      role: "AI/ML Intern",
+      role: "AI/ML Intern Engineer",
       org: "Cothon Solutions Pvt. Ltd. · AICTE, Govt. of India",
       period: "Oct 2024 – Dec 2024",
       bullets: [

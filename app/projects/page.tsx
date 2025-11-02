@@ -3,13 +3,30 @@ import { ProjectCard } from "@/components/sections/project-card"
 export default function ProjectsPage() {
   const list = [
     {
-      title: "Community Skill Exchange Platform",
+      title: "SkillSwap - Community Skill Exchange Platform | (Open-source)",
       description:
-        "A modern platform (coming soon), where users exchange skills through smart matching and secure interactions, built with Next.js, Django REST API, JWT Auth, and PostgreSQL.",
+      "SkillSwap is an interactive web platform designed to connect users who want to teach or learn various skills. It offers a smooth, user-friendly interface that supports real-time collaboration, personalized interactions, and a dynamic environment for continuous learning and skill exchange.",
       imageAlt: "Skill exchange app mockup",
       tags: ["Next.js", "Typescript", "Django", "PostgreSQL", "REST"],
       placeholderQuery: "modern app dashboard skill exchange ui",
       imageSrc: "/images/skill-exchange-dashboard.jpg",
+      linkLabel: "Live ↗",
+      href: "https://skillswaprose.vercel.app/",
+      githubLabel: "Contribute ↗",
+      githubHref: "https://github.com/lava918/SkillSwap.git",
+    },
+    {
+      title: "FitTrack - Fitness Tracking WebApp",
+      description:
+        "FitTrack is a sleek and intuitive fitness tracking web app that helps users log their workouts, monitor progress, and review their activity history through a clean and responsive interface designed for effortless tracking.",
+      imageAlt: "Skill exchange app mockup",
+      tags: ["Node.js", "React.js", "Typescript", "Tailwind CSS", "Drizzle ORM", "Vite", "Render", "HTML"],
+      placeholderQuery: "modern app dashboard skill exchange ui",
+      imageSrc: "/images/fittrack-webapp.jpg",
+      linkLabel: "Live ↗",
+      href: "https://skillswaprose.vercel.app/",
+      githubLabel: "GitHub ↗",
+      githubHref: "https://github.com/lava918/FitTrack.git",
     },
     {
       title: "Lane Lines Detection for Cruise Control & Security",
@@ -19,19 +36,19 @@ export default function ProjectsPage() {
       tags: ["ML", "Python", "OpenCV"],
       placeholderQuery: "lane detection visualization autonomous driving",
       imageSrc: "/images/lane-detection.jpg",
-      linkLabel: "Link ↗",
+      linkLabel: "GitHub ↗",
       href: "https://github.com/lava918/lava918-Lane-lines-detection-using-Python-and-OpenCV.git",
     },
     {
-      title: "Spam E‑Mail Filtration",
+      title: "Spam E-Mail Filtration",
       description:
         "High-performance spam detection trained on 5k+ emails with Naive Bayes, Random Forest, and SVM. Achieved 96% accuracy.",
       imageAlt: "Spam filter dashboard",
       tags: ["Python", "ML", "NLP"],
       placeholderQuery: "email spam filter dashboard clean ui",
       imageSrc: "/images/spam-filter.jpg",
-      linkLabel: "Link ↗",
-      href: "https://github.com/lava918 Spam_e-mail_filteration_python_and_machine_learning.git",
+      linkLabel: "GitHub ↗",
+      href: "https://github.com/lava918/Spam_e-mail_filteration_python_and_machine_learning.git",
     },
     {
       title: "Stock Price Prediction (previous data - Tesla)",
@@ -41,7 +58,7 @@ export default function ProjectsPage() {
       tags: ["Python", "ML", "Matplotlib", "Plotly"],
       placeholderQuery: "stock chart prediction financial dashboard",
       imageSrc: "/images/tesla-stock.jpg",
-      linkLabel: "Link ↗",
+      linkLabel: "GitHub ↗",
       href: "https://github.com/lava918/Stock.git",
     },
     {
@@ -52,7 +69,7 @@ export default function ProjectsPage() {
       tags: ["JavaScript", "React.js", "Bootstrap", "HTML5", "CSS3"],
       placeholderQuery: "food ordering web app interface restaurant delivery ui",
       imageSrc: "/images/food-basin.jpg",
-      linkLabel: "Link ↗",
+      linkLabel: "Codebase.rar ↗",
       href: "https://drive.google.com/file/d/15zDRU5xX4Wrl_QzifkYWWsKJ3rTcu_PM/view",
     },
     {
@@ -63,7 +80,7 @@ export default function ProjectsPage() {
       tags: ["Python", "PyGame"],
       placeholderQuery: "retro pixel snake game screenshot",
       imageSrc: "/images/pixel-serpent.jpg",
-      linkLabel: "Link ↗",
+      linkLabel: "GitHub ↗",
       href: "https://github.com/lava918/Snake-Game-using-Python.git",
     },
   ]

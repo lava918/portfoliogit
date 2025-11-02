@@ -14,6 +14,8 @@ type Project = {
   placeholderQuery: string
   imageSrc?: string
   linkLabel?: string
+  githubHref?: string
+  githubLabel?: string
 }
 
 export function ProjectCard({ p }: { p: Project }) {
@@ -40,7 +42,10 @@ export function ProjectCard({ p }: { p: Project }) {
             />
           </div>
           <div>
-            <p className="text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">{p.description}</p>
+            <p className="text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
+              {p.description}
+            </p>
+
             {p.tags && (
               <ul className="mt-3 flex flex-wrap gap-2">
                 {p.tags.map((t) => (
@@ -53,19 +58,29 @@ export function ProjectCard({ p }: { p: Project }) {
                 ))}
               </ul>
             )}
-            {typeof p.linkLabel === "string" &&
-              (p.href ? (
+
+            <div className="mt-4 flex gap-4">
+              {p.href && (
                 <a
                   href={p.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block text-sm text-accent underline-offset-4 transition-colors hover:underline"
+                  className="text-sm text-accent underline-offset-4 transition-colors hover:underline"
                 >
-                  {p.linkLabel || "View details"}
+                  {p.linkLabel || "Live ↗"}
                 </a>
-              ) : (
-                <span className="mt-4 inline-block text-sm text-muted-foreground">{p.linkLabel}</span>
-              ))}
+              )}
+              {p.githubHref && (
+                <a
+                  href={p.githubHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-accent underline-offset-4 transition-colors hover:underline"
+                >
+                  {p.githubLabel || "GitHub ↗"}
+                </a>
+              )}
+            </div>
           </div>
         </CardContent>
       </Card>
