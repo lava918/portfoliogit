@@ -4,11 +4,11 @@ export default function SkillsPage() {
   const groups = [
     {
       title: "Programming Languages",
-      items: ["Java", "Python", "JavaScript", "Typescript", "C & C++", "PHP"],
+      items: ["Java", "Python", "JavaScript", "C & C++", "PHP"],
     },
     {
       title: "Web Development",
-      items: ["React.js", "Node.js", "Bootstrap", "Tailwind CSS", "HTML5", "CSS3"],
+      items: ["Next.js", "React.js", "Node.js", "Typescript", "Tailwind CSS", "Bootstrap", "HTML5", "CSS3"],
     },
     {
       title: "Databases",
