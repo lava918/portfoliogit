@@ -12,7 +12,7 @@ export default function SkillsPage() {
     },
     {
       title: "Databases",
-      items: ["PostgreSQL", "Oracle", "MySQL", "MongoDB"],
+      items: ["PostgreSQL", "Oracle", "MySQL", "SQLite", "MongoDB"],
     },
     {
       title: "Core Competencies",
