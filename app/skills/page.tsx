@@ -24,7 +24,7 @@ export default function SkillsPage() {
     },
     {
       title: "Development Tools & Platforms",
-      items: ["Vercel", "Render", "Replit", "VS Code", "Cursor", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
+      items: ["Firebase", "Vercel", "Render", "Replit", "VS Code", "Cursor", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
     }
   ]
   return <SkillsGrid groups={groups} />
