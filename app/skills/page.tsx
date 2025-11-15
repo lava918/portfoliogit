@@ -8,7 +8,7 @@ export default function SkillsPage() {
     },
     {
       title: "Web Development",
-      items: ["Next.js", "React.js", "Node.js", "Typescript", "Tailwind CSS", "Bootstrap", "HTML5", "CSS3"],
+      items: ["Next.js", "React.js", "Node.js", "Typescript", "Tailwind CSS", "Fetch API", "RESTful APIs", "HTML5", "CSS3"],
     },
     {
       title: "Databases",
