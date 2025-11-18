@@ -10,7 +10,17 @@ export default function AboutPage() {
       <ValuesLike title="About me" paragraphs={paragraphs} />
 
       <section className="mx-auto grid max-w-5xl gap-6 px-4 pb-20 md:grid-cols-2">
-        <Card className="md:col-span-2">
+
+        {/* EDUCATION CARD WITH UPDATED BORDERS */}
+        <Card
+          className="
+            md:col-span-2
+            rounded-2xl
+            border border-gray-400/40 dark:border-gray-500/40
+            transition-all duration-300
+            hover:border-black dark:hover:border-white
+          "
+        >
           <CardHeader>
             <CardTitle className="text-lg tracking-tight">Education</CardTitle>
           </CardHeader>
@@ -21,29 +31,53 @@ export default function AboutPage() {
                   aria-hidden
                   className="absolute -start-2.5 mt-2 h-2.5 w-2.5 rounded-full bg-accent ring-2 ring-background"
                 />
-                <h4 className="font-medium tracking-tight">Bachelors in Computer Applications & Science</h4>
-                <p className="text-sm text-muted-foreground">GLA University, Mathura, UP · Sep 2022 – Jun 2025</p>
+                <h4 className="font-medium tracking-tight">
+                  Bachelors in Computer Applications & Science
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  GLA University, Mathura, UP · Sep 2022 – Jun 2025
+                </p>
               </li>
+
               <li className="ms-6 py-5">
                 <span
                   aria-hidden
                   className="absolute -start-2.5 mt-2 h-2.5 w-2.5 rounded-full bg-accent ring-2 ring-background"
                 />
-                <h4 className="font-medium tracking-tight">Intermediate in Science (CBSE)</h4>
-                <p className="text-sm text-muted-foreground">H.P.J.C., Agra, UP · Mar 2021 – May 2022</p>
+                <h4 className="font-medium tracking-tight">
+                  Intermediate in Science (CBSE)
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  H.P.J.C., Agra, UP · Mar 2021 – May 2022
+                </p>
               </li>
+
               <li className="ms-6 py-5">
                 <span
                   aria-hidden
                   className="absolute -start-2.5 mt-2 h-2.5 w-2.5 rounded-full bg-accent ring-2 ring-background"
                 />
-                <h4 className="font-medium tracking-tight">Matriculation (CBSE)</h4>
-                <p className="text-sm text-muted-foreground">H.P.J.C., Agra, UP · Mar 2019 – May 2020</p>
+                <h4 className="font-medium tracking-tight">
+                  Matriculation (CBSE)
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  H.P.J.C., Agra, UP · Mar 2019 – May 2020
+                </p>
               </li>
             </ol>
           </CardContent>
         </Card>
-        <Card className="md:col-span-2">
+
+        {/* CERTIFICATES CARD WITH UPDATED BORDERS */}
+        <Card
+          className="
+            md:col-span-2
+            rounded-2xl
+            border border-gray-400/40 dark:border-gray-500/40
+            transition-all duration-300
+            hover:border-black dark:hover:border-white
+          "
+        >
           <CardHeader>
             <CardTitle className="text-lg tracking-tight">Certificates</CardTitle>
           </CardHeader>
@@ -60,6 +94,7 @@ export default function AboutPage() {
                   Google – Project Management Specialization (June 2024)
                 </a>
               </li>
+
               <li>
                 2.{" "}
                 <a
@@ -71,6 +106,7 @@ export default function AboutPage() {
                   University of Michigan – Python 3 Specialization (July 2024)
                 </a>
               </li>
+
               <li>
                 3.{" "}
                 <a
@@ -82,6 +118,7 @@ export default function AboutPage() {
                   Meta – Frontend Development Specialization (August 2024)
                 </a>
               </li>
+
               <li>
                 4.{" "}
                 <a
@@ -93,6 +130,7 @@ export default function AboutPage() {
                   Stanford University – Supervised Machine Learning (July 2024)
                 </a>
               </li>
+
               <li>
                 5.{" "}
                 <a
@@ -101,9 +139,10 @@ export default function AboutPage() {
                   rel="noopener noreferrer"
                   className="hover:underline underline-offset-4"
                 >
-                  University of California, San Diego – Object Oriented Programming (Aug 2024)
+                  UCSD – Object Oriented Programming (Aug 2024)
                 </a>
               </li>
+
               <li>
                 6.{" "}
                 <a
@@ -115,6 +154,7 @@ export default function AboutPage() {
                   LearnQuest – Core Java (Mar 2024)
                 </a>
               </li>
+
               <li>
                 7.{" "}
                 <a
@@ -126,6 +166,7 @@ export default function AboutPage() {
                   Google – Computer Networking (Feb 2024)
                 </a>
               </li>
+
               <li>
                 8.{" "}
                 <a
@@ -134,11 +175,12 @@ export default function AboutPage() {
                   rel="noopener noreferrer"
                   className="hover:underline underline-offset-4"
                 >
-                  Microsoft – IT Consultant (December 2024)
+                  Microsoft – IT Consultant (Dec 2024)
                 </a>
               </li>
+
               <li></li>
-              <li> and more...</li>
+              <li>and more...</li>
             </ul>
           </CardContent>
         </Card>

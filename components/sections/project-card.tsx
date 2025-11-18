@@ -20,27 +20,46 @@ type Project = {
 
 export function ProjectCard({ p }: { p: Project }) {
   const ref = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] })
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"]
+  })
   const y = useTransform(scrollYProgress, [0, 1], [20, -20])
   const scale = useTransform(scrollYProgress, [0, 1], [0.98, 1])
 
   return (
     <motion.div ref={ref} style={{ y, scale }}>
-      <Card className="group overflow-hidden rounded-2xl border-border/80 transition-colors hover:border-foreground/30">
+      <Card
+        className="
+          group 
+          overflow-hidden 
+          rounded-2xl 
+          border border-gray-400/40 dark:border-gray-500/40 
+          transition-all 
+          hover:border-black dark:hover:border-white
+        "
+      >
         <CardHeader>
           <CardTitle className="text-xl">{p.title}</CardTitle>
         </CardHeader>
+
         <CardContent className="grid items-center gap-4 sm:grid-cols-2">
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-border/70">
             <Image
-              src={p.imageSrc || `/.jpg?height=720&width=960&query=${encodeURIComponent(p.placeholderQuery)}`}
+              src={
+                p.imageSrc ||
+                `/.jpg?height=720&width=960&query=${encodeURIComponent(
+                  p.placeholderQuery
+                )}`
+              }
               alt={p.imageAlt}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+              className="object-cover transition-none"
               sizes="(max-width: 768px) 100vw, 50vw"
               priority={false}
             />
           </div>
+
           <div>
             <p className="text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
               {p.description}
