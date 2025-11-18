@@ -4,7 +4,7 @@ export default function ExperiencePage() {
   const items = [
     {
       role: "TRS 1 @ FCS Software Solutions Pvt. Ltd.",
-      org: "FCS Software Solutions Pvt. Ltd.",
+      org: "",
       period: "Noida, UP | Jun 2025 – Sept 2025",
       bullets: [
         "Engineered advanced multi-layered Boolean search logic and leveraged large-scale ATS/cloud data systems to drive high-precision candidate discovery and significantly reduce manual retrieval overhead.",
