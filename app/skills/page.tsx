@@ -2,30 +2,78 @@ import { SkillsGrid } from "@/components/sections/skills-grid"
 
 export default function SkillsPage() {
   const groups = [
-    {
-      title: "Programming Languages",
-      items: ["Java", "Python", "JavaScript", "Typescript", "C & C++", "PHP"],
-    },
-    {
-      title: "Web Development",
-      items: ["React.js", "Node.js", "Bootstrap", "Tailwind CSS", "HTML5", "CSS3"],
-    },
-    {
-      title: "Databases",
-      items: ["PostgreSQL", "Oracle", "MySQL", "MongoDB"],
-    },
-    {
-      title: "Core Competencies",
-      items: ["Git", "GitHub", "Debugging", "Problem Solving", "Analytical Thinking", "Collaboration", "Adaptability", "Project Leadership"],
-    },
-    {
-      title: "Machine Learning & Data Science",
-      items: ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Plotly", "Random Forest", "PyTorch", "OpenCV", "Naïve Bayes"],
-    },
-    {
-      title: "Development Tools & Platforms",
-      items: ["Vercel", "Render", "Replit", "VS Code", "Cursor", "Visual Studio", "Jupyter Notebook", "PyCharm", "IntelliJ IDEA", "Google Colab", "Netlify", "MongoDB Compass", "MySQL Workbench", "Android Studio"],
-    }
+                 {
+                title: "Programming Languages",
+                items: ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "PHP"],
+              },
+              {
+                title: "Web Development",
+                items: [
+                  "Next.js",
+                  "React.js",
+                  "Django",
+                  "Node.js",
+                  "Fetch API",
+                  "RESTful APIs",
+                  "Tailwind CSS",
+                  "HTML5",
+                  "CSS3"
+                ],
+              },
+              {
+                title: "Databases",
+                items: ["PostgreSQL", "Oracle", "MySQL", "SQLite", "MongoDB"],
+              },
+              {
+                title: "Machine Learning & Data Science",
+                items: [
+                  "Scikit-learn",
+                  "Pandas",
+                  "NumPy",
+                  "Matplotlib",
+                  "Plotly",
+                  "PyTorch",
+                  "OpenCV",
+                  "Random Forest",
+                  "Naïve Bayes"
+                ],
+              },
+              {
+                title: "Core Competencies",
+                items: [
+                  "Git",
+                  "GitHub",
+                  "Bash",
+                  "Linux",
+                  "PowerShell",
+                  "Debugging",
+                  "Problem Solving",
+                  "Analytical Thinking",
+                  "Collaboration",
+                  "Adaptability",
+                  "Project Leadership"
+                ],
+              },
+              {
+                title: "Development Tools & Platforms",
+                items: [
+                  "Firebase",
+                  "Vercel",
+                  "Render",
+                  "Netlify",
+                  "Replit",
+                  "Google Colab",
+                  "Jupyter Notebook",
+                  "VS Code",
+                  "Cursor",
+                  "PyCharm",
+                  "IntelliJ IDEA",
+                  "Visual Studio",
+                  "MongoDB Compass",
+                  "MySQL Workbench",
+                  "Android Studio"
+                ],
+              }
   ]
   return <SkillsGrid groups={groups} />
 }

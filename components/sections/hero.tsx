@@ -26,7 +26,7 @@ export function Hero() {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-          className="text-balance text-5xl font-medium tracking-[-0.02em] sm:text-5xl md:text-6xl"
+          className="text-balance text-4xl font-medium tracking-[-0.02em] sm:text-5xl md:text-6xl"
         >
           Lavanya Sharma
         </motion.h1>

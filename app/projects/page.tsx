@@ -24,7 +24,7 @@ export default function ProjectsPage() {
       placeholderQuery: "modern app dashboard skill exchange ui",
       imageSrc: "/images/fittrack-webapp.jpg",
       linkLabel: "Live ↗",
-      href: "https://skillswaprose.vercel.app/",
+      href: "https://fittrack-mt6p.onrender.com/",
       githubLabel: "GitHub ↗",
       githubHref: "https://github.com/lava918/FitTrack.git",
     },
