@@ -5,7 +5,7 @@ export default function ExperiencePage() {
     {
       role: "Technical Resource Specialist",
       org: "FCS Software Solutions Pvt. Ltd.",
-      period: "Jun 2025 – Sept 2025",
+      period: "Noida, UP | Jun 2025 – Sept 2025",
       bullets: [
         "• Engineered advanced multi-layered Boolean search logic and leveraged large-scale ATS/cloud data systems to drive high-precision candidate discovery and reduce manual retrieval overhead.",
         "• Collaborated with cross-functional stakeholders—including delivery teams, hiring managers, and project leads—to translate technical hiring needs for clients such as Wipro, Accenture, L&T, and global enterprises into actionable sourcing strategies.",
