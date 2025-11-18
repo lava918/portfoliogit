@@ -7,10 +7,10 @@ export default function ExperiencePage() {
       org: "FCS Software Solutions Pvt. Ltd.",
       period: "Jun 2025 – Sept 2025",
       bullets: [
-        "• Leveraged SQL and advanced Boolean searches across internal/cloud databases.",
-        "• Partnered with cross-functional teams to fulfill requirements for Wipro, Accenture, L&T, and international clients.",
-        "• Streamlined sourcing processes, improving turnaround time for shortlisting.",
-        "• Maintained data accuracy and optimized access for recruitment needs.",
+        "• Engineered advanced multi-layered Boolean search logic and leveraged large-scale ATS/cloud data systems to drive high-precision candidate discovery and reduce manual retrieval overhead.",
+        "• Collaborated with cross-functional stakeholders—including delivery teams, hiring managers, and project leads—to translate technical hiring needs for clients such as Wipro, Accenture, L&T, and global enterprises into actionable sourcing strategies.",
+        "• Optimized end-to-end sourcing workflows by refining data filtering rules, automating repetitive search operations, and implementing structured pipelines, significantly accelerating shortlisting turnaround time.",
+        "• Ensured high data fidelity by validating, organizing, and optimizing candidate datasets across internal systems, enhancing platform accessibility and improving decision-making across recruitment operations.",
       ],
     },
     {
