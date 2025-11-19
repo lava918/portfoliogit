@@ -59,6 +59,7 @@ export default function SkillsPage() {
                 items: [
                   "Firebase",
                   "Vercel",
+                  "Antigravity",
                   "Render",
                   "Netlify",
                   "Replit",
