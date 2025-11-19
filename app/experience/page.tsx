@@ -4,7 +4,7 @@ export default function ExperiencePage() {
   const items = [
     {
       role: "TRS 1 @ FCS Software Solutions Pvt. Ltd.",
-      org: "FCS Software Solutions Pvt. Ltd.",
+      org: "",
       period: "Noida, UP | Jun 2025 – Sept 2025",
       bullets: [
         "Engineered advanced multi-layered Boolean search logic and leveraged large-scale ATS/cloud data systems to drive high-precision candidate discovery and significantly reduce manual retrieval overhead.",
@@ -21,8 +21,9 @@ export default function ExperiencePage() {
       bullets: ["Details not disclosed."],
     },
     {
-      role: "AI/ML Intern Engineer @ Cothon Solutions Pvt. Ltd. · AICTE, Govt. of India",
+      role: "AI/ML Intern Engineer @ Cothon Solutions Pvt. Ltd.",
       period: "Remote | Oct 2024 – Dec 2024",
+      org: "AICTE, Govt. of India",
       bullets: [
         "Architected and trained multiple high-performance machine learning models, including stock market forecasting systems, deep-learning-based species classification networks, and facial recognition pipelines with robust feature extraction.",
         "Achieved over 96% accuracy across models by applying advanced optimization techniques, hyperparameter tuning, and rigorous performance evaluation across validation and test environments.",
@@ -31,8 +32,9 @@ export default function ExperiencePage() {
       ],
     },
     {
-      role: "Team Lead | Frontend (Intern) @ Skill-Chase · AICTE, Govt. of India",
+      role: "Team Lead | Frontend Developer (Intern)",
       period: "Remote | Jul 2024 – Sep 2024",
+      org: "MSME & AICTE, Govt. of India",
       bullets: [
         "Led and coordinated a 10-member engineering team in developing fully responsive, component-driven web applications using React, Tailwind, and Bootstrap, ensuring scalable and production-ready UI architecture.",
         "Provided continuous technical mentorship across component design, abstraction, debugging strategies, and workflow structuring, resulting in a significant 40% improvement in overall development velocity.",

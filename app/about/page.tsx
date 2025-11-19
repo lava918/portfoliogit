@@ -32,10 +32,10 @@ export default function AboutPage() {
                   className="absolute -start-2.5 mt-2 h-2.5 w-2.5 rounded-full bg-accent ring-2 ring-background"
                 />
                 <h4 className="font-medium tracking-tight">
-                  Bachelors in Computer Applications & Science
+                  Bachelors in Computer Application & Sciences
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  GLA University, Mathura, UP · Sep 2022 – Jun 2025
+                  GLA University, Mathura, UP, India · Sep 2022 – Jun 2025
                 </p>
               </li>
 
@@ -48,7 +48,7 @@ export default function AboutPage() {
                   Intermediate in Science (CBSE)
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  H.P.J.C., Agra, UP · Mar 2021 – May 2022
+                  H.P.J.C., Agra, UP, India · Mar 2021 – May 2022
                 </p>
               </li>
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   Matriculation (CBSE)
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  H.P.J.C., Agra, UP · Mar 2019 – May 2020
+                  H.P.J.C., Agra, UP, India · Mar 2019 – May 2020
                 </p>
               </li>
             </ol>
@@ -139,7 +139,7 @@ export default function AboutPage() {
                   rel="noopener noreferrer"
                   className="hover:underline underline-offset-4"
                 >
-                  UCSD – Object Oriented Programming (Aug 2024)
+                  University of California, San Diego – Object Oriented Programming (Aug 2024)
                 </a>
               </li>
 
