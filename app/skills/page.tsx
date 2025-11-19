@@ -59,7 +59,6 @@ export default function SkillsPage() {
                 items: [
                   "Firebase",
                   "Vercel",
-                  "Antigravity",
                   "Render",
                   "Netlify",
                   "Replit",
@@ -67,12 +66,12 @@ export default function SkillsPage() {
                   "Jupyter Notebook",
                   "VS Code",
                   "Cursor",
+                  "Antigravity",
                   "PyCharm",
                   "IntelliJ IDEA",
                   "Visual Studio",
                   "MongoDB Compass",
-                  "MySQL Workbench",
-                  "Android Studio"
+                  "MySQL Workbench"
                 ],
               }
   ]
