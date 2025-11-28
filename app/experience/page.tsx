@@ -3,7 +3,7 @@ import { Timeline } from "@/components/sections/timeline"
 export default function ExperiencePage() {
   const items = [
     {
-      role: "TRS 1 @ FCS Software Solutions Pvt. Ltd.",
+      role: "TRS 2 @ FCS Software Solutions Pvt. Ltd.",
       org: "",
       period: "Noida, UP | Jun 2025 – Sept 2025",
       bullets: [
