@@ -7,7 +7,7 @@ export default function ProjectsPage() {
       description:
       "SkillSwap is an interactive web platform designed to connect users who want to teach or learn various skills. It offers a smooth, user-friendly interface that supports real-time collaboration, personalized interactions, and a dynamic environment for continuous learning and skill exchange.",
       imageAlt: "Skill exchange app mockup",
-      tags: ["Next.js", "Typescript", "Django", "PostgreSQL", "REST"],
+      tags: ["Next.js", "Typescript", "PostgreSQL", "Prisma", "REST", "Vercel"],
       placeholderQuery: "modern app dashboard skill exchange ui",
       imageSrc: "/images/skill-exchange-dashboard.jpg",
       linkLabel: "Live ↗",
